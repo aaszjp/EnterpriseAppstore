@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseTabBarController.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,15 @@
 
 @implementation AppDelegate
 
-
+#pragma mark - Life Cycle
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[NSUserDefaults standardUserDefaults] objectForKey:kToken] ? [[BaseTabBarController alloc] init] : [[LoginViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -40,6 +48,23 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Public Method
+- (void)gotoHomeVC {
+    UIViewController *oldVC = self.window.rootViewController;
+    BaseTabBarController *newVC = [[BaseTabBarController alloc] init];
+    [UIView transitionFromView:oldVC.view toView:newVC.view duration:0.6 options:UIViewAnimationOptionLayoutSubviews completion:^(BOOL finished) {
+        self.window.rootViewController = newVC;
+    }];
+}
+
+- (void)gotoLoginVC {
+    UIViewController *oldVC = self.window.rootViewController;
+    LoginViewController *newVC = [[LoginViewController alloc] init];
+    [UIView transitionFromView:oldVC.view toView:newVC.view duration:0.6 options:UIViewAnimationOptionLayoutSubviews completion:^(BOOL finished) {
+        self.window.rootViewController = newVC;
+    }];
 }
 
 @end

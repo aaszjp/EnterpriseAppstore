@@ -11,25 +11,26 @@
 
 @implementation BaseEntity
 
-- (instancetype)initWithNode:(XmlNode*) node {
-    if (!node || node == nil) {
-        return nil;
-    }
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     self = [super init];
     if (!self || self == nil) {
         return nil;
     }
-    unsigned int count;
-    objc_property_t *properties = class_copyPropertyList([self class], &count);
-    for (int i = 0; i < count; i ++) {
-        const char *property = property_getName(properties[i]);
-        NSString *propertyName = [NSString stringWithCString:property encoding:NSUTF8StringEncoding];
-        NSRange range = [propertyName rangeOfString:@"Height"];
-        if (range.location == NSNotFound) {
-            id value = [node getNodeValue:propertyName] ? [node getNodeValue:propertyName] : @"";
-            [self setValue:value forKey:propertyName];
-        }
-    }
+    /**
+     *  kvc方式，默认
+     */
+    [self setValuesForKeysWithDictionary:dictionary];
+
+    /**
+     *  runtime方式，可以用来处理特殊key、value的情况
+     */
+//    unsigned int count;
+//    objc_property_t *properties = class_copyPropertyList([self class], &count);
+//    for (int i = 0; i < count; i ++) {
+//        const char *property = property_getName(properties[i]);
+//        NSString *propertyName = [NSString stringWithCString:property encoding:NSUTF8StringEncoding];
+//        [self setValue:[dictionary objectForKey:propertyName] forKey:propertyName];
+//    }
     return self;
 }
 

@@ -10,4 +10,8 @@
 
 @interface ParamAdapter : NSObject
 
++ (NSString *)adaptLoginRequestParamsWithUserName:(NSString *)userName password:(NSString *)password;
+
++ (NSString *)adaptAppCateListParams;
+
 @end

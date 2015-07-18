@@ -10,4 +10,6 @@
 
 @interface DataParser : NSObject
 
++ (NSArray *)parseAppCateList;
+
 @end

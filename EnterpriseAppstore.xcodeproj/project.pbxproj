@@ -10,10 +10,60 @@
 		0694FC281B4C03CD00CEBC7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC271B4C03CD00CEBC7C /* main.m */; };
 		0694FC2B1B4C03CD00CEBC7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC2A1B4C03CD00CEBC7C /* AppDelegate.m */; };
 		0694FC2E1B4C03CD00CEBC7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC2D1B4C03CD00CEBC7C /* ViewController.m */; };
-		0694FC311B4C03CD00CEBC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC2F1B4C03CD00CEBC7C /* Main.storyboard */; };
 		0694FC331B4C03CD00CEBC7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC321B4C03CD00CEBC7C /* Images.xcassets */; };
 		0694FC361B4C03CD00CEBC7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC341B4C03CD00CEBC7C /* LaunchScreen.xib */; };
 		0694FC421B4C03CD00CEBC7C /* EnterpriseAppstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC411B4C03CD00CEBC7C /* EnterpriseAppstoreTests.m */; };
+		0694FC511B4C056F00CEBC7C /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC501B4C056F00CEBC7C /* UIColor+HexColor.m */; };
+		0694FC561B4C05E900CEBC7C /* NSDictionary+JsonString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC531B4C05E900CEBC7C /* NSDictionary+JsonString.m */; };
+		0694FC571B4C05E900CEBC7C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC551B4C05E900CEBC7C /* NSString+Extension.m */; };
+		0694FC611B4D55BF00CEBC7C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC601B4D55BF00CEBC7C /* SettingViewController.m */; };
+		0694FC641B4D59AA00CEBC7C /* SecureDesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC631B4D59AA00CEBC7C /* SecureDesktopViewController.m */; };
+		0694FC671B4D5A9B00CEBC7C /* AllAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC661B4D5A9B00CEBC7C /* AllAppsViewController.m */; };
+		0694FC701B4E293500CEBC7C /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC6F1B4E293500CEBC7C /* ManageViewController.m */; };
+		0694FC731B4E42C100CEBC7C /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC721B4E42C100CEBC7C /* BaseNavigationController.m */; };
+		0694FC7A1B4E4E4C00CEBC7C /* ico_APP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC761B4E4E4C00CEBC7C /* ico_APP@2x.png */; };
+		0694FC7B1B4E4E4C00CEBC7C /* ico_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC771B4E4E4C00CEBC7C /* ico_home@2x.png */; };
+		0694FC7C1B4E4E4C00CEBC7C /* ico_menage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC781B4E4E4C00CEBC7C /* ico_menage@2x.png */; };
+		0694FC7D1B4E4E4C00CEBC7C /* ico_set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC791B4E4E4C00CEBC7C /* ico_set@2x.png */; };
+		0694FC821B4E52FC00CEBC7C /* ico_APP@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC7E1B4E52FC00CEBC7C /* ico_APP@3x.png */; };
+		0694FC831B4E52FC00CEBC7C /* ico_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC7F1B4E52FC00CEBC7C /* ico_home@3x.png */; };
+		0694FC841B4E52FC00CEBC7C /* ico_menage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC801B4E52FC00CEBC7C /* ico_menage@3x.png */; };
+		0694FC851B4E52FC00CEBC7C /* ico_set@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC811B4E52FC00CEBC7C /* ico_set@3x.png */; };
+		0694FC881B4E607C00CEBC7C /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FC871B4E607C00CEBC7C /* BaseTabBarController.m */; };
+		0694FC971B4E741A00CEBC7C /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC8E1B4E741A00CEBC7C /* about@2x.png */; };
+		0694FC981B4E741A00CEBC7C /* bluebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC8F1B4E741A00CEBC7C /* bluebg@2x.png */; };
+		0694FC9A1B4E741A00CEBC7C /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC911B4E741A00CEBC7C /* head@2x.png */; };
+		0694FC9B1B4E741A00CEBC7C /* logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC921B4E741A00CEBC7C /* logout@2x.png */; };
+		0694FC9C1B4E741A00CEBC7C /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC931B4E741A00CEBC7C /* phone@2x.png */; };
+		0694FC9E1B4E741A00CEBC7C /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC951B4E741A00CEBC7C /* test@2x.png */; };
+		0694FC9F1B4E741A00CEBC7C /* update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FC961B4E741A00CEBC7C /* update@2x.png */; };
+		0694FCA71B4E74C600CEBC7C /* about@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA01B4E74C600CEBC7C /* about@3x.png */; };
+		0694FCA81B4E74C600CEBC7C /* bluebg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA11B4E74C600CEBC7C /* bluebg@3x.png */; };
+		0694FCA91B4E74C600CEBC7C /* head@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA21B4E74C600CEBC7C /* head@3x.png */; };
+		0694FCAA1B4E74C600CEBC7C /* logout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA31B4E74C600CEBC7C /* logout@3x.png */; };
+		0694FCAB1B4E74C600CEBC7C /* phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA41B4E74C600CEBC7C /* phone@3x.png */; };
+		0694FCAC1B4E74C600CEBC7C /* test@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA51B4E74C600CEBC7C /* test@3x.png */; };
+		0694FCAD1B4E74C600CEBC7C /* update@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCA61B4E74C600CEBC7C /* update@3x.png */; };
+		0694FCB01B4E83D900CEBC7C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FCAF1B4E83D900CEBC7C /* BaseViewController.m */; };
+		0694FCB31B4E975400CEBC7C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FCB21B4E975400CEBC7C /* LoginViewController.m */; };
+		0694FCB71B4E981100CEBC7C /* btn_signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCB41B4E981100CEBC7C /* btn_signup@2x.png */; };
+		0694FCB81B4E981100CEBC7C /* ico_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCB51B4E981100CEBC7C /* ico_password@2x.png */; };
+		0694FCB91B4E981100CEBC7C /* ico_user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCB61B4E981100CEBC7C /* ico_user@2x.png */; };
+		0694FCBD1B4E982700CEBC7C /* btn_signup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCBA1B4E982700CEBC7C /* btn_signup@3x.png */; };
+		0694FCBE1B4E982700CEBC7C /* ico_password@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCBB1B4E982700CEBC7C /* ico_password@3x.png */; };
+		0694FCBF1B4E982700CEBC7C /* ico_user@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694FCBC1B4E982700CEBC7C /* ico_user@3x.png */; };
+		0694FCC21B4E9A0F00CEBC7C /* LoginCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694FCC11B4E9A0F00CEBC7C /* LoginCustomTextField.m */; };
+		069630311B53940E0030A9F8 /* WebRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 069630301B53940E0030A9F8 /* WebRequestManager.m */; };
+		069630341B53B7D00030A9F8 /* ParamAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 069630331B53B7D00030A9F8 /* ParamAdapter.m */; };
+		06DCFCDC1B554A3100A6074B /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06DCFCDB1B554A3100A6074B /* bg@2x.png */; };
+		06DCFCDE1B554A3D00A6074B /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06DCFCDD1B554A3D00A6074B /* bg@3x.png */; };
+		06DCFCE11B56427300A6074B /* SecureDesktopItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DCFCE01B56427300A6074B /* SecureDesktopItemView.m */; };
+		06DCFCE41B58B27A00A6074B /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DCFCE31B58B27A00A6074B /* BaseEntity.m */; };
+		06DCFCE71B58B4BB00A6074B /* AppCategoryEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DCFCE61B58B4BB00A6074B /* AppCategoryEntity.m */; };
+		06DCFCE91B58E7DB00A6074B /* sanj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06DCFCE81B58E7DB00A6074B /* sanj@2x.png */; };
+		06DCFCEB1B58E7E900A6074B /* sanj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06DCFCEA1B58E7E900A6074B /* sanj@3x.png */; };
+		06DCFCEE1B5917BC00A6074B /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DCFCED1B5917BC00A6074B /* DataParser.m */; };
+		1F08280CE8C85FBEAE412789 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B799957435FBF5EFFDE92A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +84,83 @@
 		0694FC2A1B4C03CD00CEBC7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0694FC2C1B4C03CD00CEBC7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0694FC2D1B4C03CD00CEBC7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0694FC301B4C03CD00CEBC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0694FC321B4C03CD00CEBC7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0694FC351B4C03CD00CEBC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0694FC3B1B4C03CD00CEBC7C /* EnterpriseAppstoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterpriseAppstoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0694FC401B4C03CD00CEBC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0694FC411B4C03CD00CEBC7C /* EnterpriseAppstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnterpriseAppstoreTests.m; sourceTree = "<group>"; };
+		0694FC4F1B4C056F00CEBC7C /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		0694FC501B4C056F00CEBC7C /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		0694FC521B4C05E900CEBC7C /* NSDictionary+JsonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JsonString.h"; sourceTree = "<group>"; };
+		0694FC531B4C05E900CEBC7C /* NSDictionary+JsonString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JsonString.m"; sourceTree = "<group>"; };
+		0694FC541B4C05E900CEBC7C /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		0694FC551B4C05E900CEBC7C /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		0694FC5E1B4C080500CEBC7C /* EnterpriseAppstore.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterpriseAppstore.pch; sourceTree = "<group>"; };
+		0694FC5F1B4D55BF00CEBC7C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		0694FC601B4D55BF00CEBC7C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		0694FC621B4D59AA00CEBC7C /* SecureDesktopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureDesktopViewController.h; sourceTree = "<group>"; };
+		0694FC631B4D59AA00CEBC7C /* SecureDesktopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureDesktopViewController.m; sourceTree = "<group>"; };
+		0694FC651B4D5A9B00CEBC7C /* AllAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAppsViewController.h; sourceTree = "<group>"; };
+		0694FC661B4D5A9B00CEBC7C /* AllAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAppsViewController.m; sourceTree = "<group>"; };
+		0694FC6E1B4E293500CEBC7C /* ManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		0694FC6F1B4E293500CEBC7C /* ManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
+		0694FC711B4E42C100CEBC7C /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		0694FC721B4E42C100CEBC7C /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		0694FC761B4E4E4C00CEBC7C /* ico_APP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_APP@2x.png"; sourceTree = "<group>"; };
+		0694FC771B4E4E4C00CEBC7C /* ico_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_home@2x.png"; sourceTree = "<group>"; };
+		0694FC781B4E4E4C00CEBC7C /* ico_menage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_menage@2x.png"; sourceTree = "<group>"; };
+		0694FC791B4E4E4C00CEBC7C /* ico_set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_set@2x.png"; sourceTree = "<group>"; };
+		0694FC7E1B4E52FC00CEBC7C /* ico_APP@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_APP@3x.png"; sourceTree = "<group>"; };
+		0694FC7F1B4E52FC00CEBC7C /* ico_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_home@3x.png"; sourceTree = "<group>"; };
+		0694FC801B4E52FC00CEBC7C /* ico_menage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_menage@3x.png"; sourceTree = "<group>"; };
+		0694FC811B4E52FC00CEBC7C /* ico_set@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_set@3x.png"; sourceTree = "<group>"; };
+		0694FC861B4E607C00CEBC7C /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		0694FC871B4E607C00CEBC7C /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		0694FC8E1B4E741A00CEBC7C /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		0694FC8F1B4E741A00CEBC7C /* bluebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluebg@2x.png"; sourceTree = "<group>"; };
+		0694FC911B4E741A00CEBC7C /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@2x.png"; sourceTree = "<group>"; };
+		0694FC921B4E741A00CEBC7C /* logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@2x.png"; sourceTree = "<group>"; };
+		0694FC931B4E741A00CEBC7C /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
+		0694FC951B4E741A00CEBC7C /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
+		0694FC961B4E741A00CEBC7C /* update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update@2x.png"; sourceTree = "<group>"; };
+		0694FCA01B4E74C600CEBC7C /* about@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@3x.png"; sourceTree = "<group>"; };
+		0694FCA11B4E74C600CEBC7C /* bluebg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluebg@3x.png"; sourceTree = "<group>"; };
+		0694FCA21B4E74C600CEBC7C /* head@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@3x.png"; sourceTree = "<group>"; };
+		0694FCA31B4E74C600CEBC7C /* logout@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@3x.png"; sourceTree = "<group>"; };
+		0694FCA41B4E74C600CEBC7C /* phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@3x.png"; sourceTree = "<group>"; };
+		0694FCA51B4E74C600CEBC7C /* test@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@3x.png"; sourceTree = "<group>"; };
+		0694FCA61B4E74C600CEBC7C /* update@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update@3x.png"; sourceTree = "<group>"; };
+		0694FCAE1B4E83D900CEBC7C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0694FCAF1B4E83D900CEBC7C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0694FCB11B4E975400CEBC7C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0694FCB21B4E975400CEBC7C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0694FCB41B4E981100CEBC7C /* btn_signup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_signup@2x.png"; sourceTree = "<group>"; };
+		0694FCB51B4E981100CEBC7C /* ico_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_password@2x.png"; sourceTree = "<group>"; };
+		0694FCB61B4E981100CEBC7C /* ico_user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_user@2x.png"; sourceTree = "<group>"; };
+		0694FCBA1B4E982700CEBC7C /* btn_signup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_signup@3x.png"; sourceTree = "<group>"; };
+		0694FCBB1B4E982700CEBC7C /* ico_password@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_password@3x.png"; sourceTree = "<group>"; };
+		0694FCBC1B4E982700CEBC7C /* ico_user@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_user@3x.png"; sourceTree = "<group>"; };
+		0694FCC01B4E9A0F00CEBC7C /* LoginCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCustomTextField.h; sourceTree = "<group>"; };
+		0694FCC11B4E9A0F00CEBC7C /* LoginCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCustomTextField.m; sourceTree = "<group>"; };
+		0696302F1B53940E0030A9F8 /* WebRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebRequestManager.h; sourceTree = "<group>"; };
+		069630301B53940E0030A9F8 /* WebRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRequestManager.m; sourceTree = "<group>"; };
+		069630321B53B7D00030A9F8 /* ParamAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamAdapter.h; sourceTree = "<group>"; };
+		069630331B53B7D00030A9F8 /* ParamAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamAdapter.m; sourceTree = "<group>"; };
+		06DCFCDB1B554A3100A6074B /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		06DCFCDD1B554A3D00A6074B /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
+		06DCFCDF1B56427300A6074B /* SecureDesktopItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureDesktopItemView.h; sourceTree = "<group>"; };
+		06DCFCE01B56427300A6074B /* SecureDesktopItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureDesktopItemView.m; sourceTree = "<group>"; };
+		06DCFCE21B58B27A00A6074B /* BaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntity.h; sourceTree = "<group>"; };
+		06DCFCE31B58B27A00A6074B /* BaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntity.m; sourceTree = "<group>"; };
+		06DCFCE51B58B4BB00A6074B /* AppCategoryEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCategoryEntity.h; sourceTree = "<group>"; };
+		06DCFCE61B58B4BB00A6074B /* AppCategoryEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCategoryEntity.m; sourceTree = "<group>"; };
+		06DCFCE81B58E7DB00A6074B /* sanj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanj@2x.png"; sourceTree = "<group>"; };
+		06DCFCEA1B58E7E900A6074B /* sanj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanj@3x.png"; sourceTree = "<group>"; };
+		06DCFCEC1B5917BC00A6074B /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		06DCFCED1B5917BC00A6074B /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		61B799957435FBF5EFFDE92A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDBBC9C7BC4464F5A7A060B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A6894F104D216300EA9038B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F08280CE8C85FBEAE412789 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +188,8 @@
 				0694FC241B4C03CD00CEBC7C /* EnterpriseAppstore */,
 				0694FC3E1B4C03CD00CEBC7C /* EnterpriseAppstoreTests */,
 				0694FC231B4C03CD00CEBC7C /* Products */,
+				CD7DACC2FC045BE1C7727FF0 /* Pods */,
+				F8CA5B8C31B472630267A1AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +205,14 @@
 		0694FC241B4C03CD00CEBC7C /* EnterpriseAppstore */ = {
 			isa = PBXGroup;
 			children = (
+				0694FC4E1B4C047C00CEBC7C /* util */,
+				0694FC4D1B4C042300CEBC7C /* model */,
+				0694FC4C1B4C041900CEBC7C /* view */,
+				0694FC4B1B4C03FD00CEBC7C /* controller */,
 				0694FC291B4C03CD00CEBC7C /* AppDelegate.h */,
 				0694FC2A1B4C03CD00CEBC7C /* AppDelegate.m */,
 				0694FC2C1B4C03CD00CEBC7C /* ViewController.h */,
 				0694FC2D1B4C03CD00CEBC7C /* ViewController.m */,
-				0694FC2F1B4C03CD00CEBC7C /* Main.storyboard */,
 				0694FC321B4C03CD00CEBC7C /* Images.xcassets */,
 				0694FC341B4C03CD00CEBC7C /* LaunchScreen.xib */,
 				0694FC251B4C03CD00CEBC7C /* Supporting Files */,
@@ -96,8 +223,10 @@
 		0694FC251B4C03CD00CEBC7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0694FC741B4E4E2600CEBC7C /* image */,
 				0694FC261B4C03CD00CEBC7C /* Info.plist */,
 				0694FC271B4C03CD00CEBC7C /* main.m */,
+				0694FC5E1B4C080500CEBC7C /* EnterpriseAppstore.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +248,222 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0694FC4B1B4C03FD00CEBC7C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC861B4E607C00CEBC7C /* BaseTabBarController.h */,
+				0694FC871B4E607C00CEBC7C /* BaseTabBarController.m */,
+				0694FC711B4E42C100CEBC7C /* BaseNavigationController.h */,
+				0694FC721B4E42C100CEBC7C /* BaseNavigationController.m */,
+				0694FCAE1B4E83D900CEBC7C /* BaseViewController.h */,
+				0694FCAF1B4E83D900CEBC7C /* BaseViewController.m */,
+				0694FC5C1B4C063B00CEBC7C /* 登录 */,
+				0694FC5B1B4C062E00CEBC7C /* 安全桌面 */,
+				0694FC5A1B4C061E00CEBC7C /* 所有应用 */,
+				0694FC591B4C061800CEBC7C /* 管理 */,
+				0694FC581B4C060B00CEBC7C /* 设置 */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		0694FC4C1B4C041900CEBC7C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0694FCC01B4E9A0F00CEBC7C /* LoginCustomTextField.h */,
+				0694FCC11B4E9A0F00CEBC7C /* LoginCustomTextField.m */,
+				06DCFCDF1B56427300A6074B /* SecureDesktopItemView.h */,
+				06DCFCE01B56427300A6074B /* SecureDesktopItemView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		0694FC4D1B4C042300CEBC7C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				06DCFCE21B58B27A00A6074B /* BaseEntity.h */,
+				06DCFCE31B58B27A00A6074B /* BaseEntity.m */,
+				06DCFCE51B58B4BB00A6074B /* AppCategoryEntity.h */,
+				06DCFCE61B58B4BB00A6074B /* AppCategoryEntity.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0694FC4E1B4C047C00CEBC7C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0696302E1B538DEF0030A9F8 /* web */,
+				0694FC4F1B4C056F00CEBC7C /* UIColor+HexColor.h */,
+				0694FC501B4C056F00CEBC7C /* UIColor+HexColor.m */,
+				0694FC521B4C05E900CEBC7C /* NSDictionary+JsonString.h */,
+				0694FC531B4C05E900CEBC7C /* NSDictionary+JsonString.m */,
+				0694FC541B4C05E900CEBC7C /* NSString+Extension.h */,
+				0694FC551B4C05E900CEBC7C /* NSString+Extension.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		0694FC581B4C060B00CEBC7C /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC5F1B4D55BF00CEBC7C /* SettingViewController.h */,
+				0694FC601B4D55BF00CEBC7C /* SettingViewController.m */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		0694FC591B4C061800CEBC7C /* 管理 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC6E1B4E293500CEBC7C /* ManageViewController.h */,
+				0694FC6F1B4E293500CEBC7C /* ManageViewController.m */,
+			);
+			name = "管理";
+			sourceTree = "<group>";
+		};
+		0694FC5A1B4C061E00CEBC7C /* 所有应用 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC651B4D5A9B00CEBC7C /* AllAppsViewController.h */,
+				0694FC661B4D5A9B00CEBC7C /* AllAppsViewController.m */,
+			);
+			name = "所有应用";
+			sourceTree = "<group>";
+		};
+		0694FC5B1B4C062E00CEBC7C /* 安全桌面 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC621B4D59AA00CEBC7C /* SecureDesktopViewController.h */,
+				0694FC631B4D59AA00CEBC7C /* SecureDesktopViewController.m */,
+			);
+			name = "安全桌面";
+			sourceTree = "<group>";
+		};
+		0694FC5C1B4C063B00CEBC7C /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FCB11B4E975400CEBC7C /* LoginViewController.h */,
+				0694FCB21B4E975400CEBC7C /* LoginViewController.m */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
+		0694FC741B4E4E2600CEBC7C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC8D1B4E73F300CEBC7C /* 登录 */,
+				0694FC8C1B4E73EC00CEBC7C /* 安全桌面 */,
+				0694FC8B1B4E73E100CEBC7C /* 所有应用 */,
+				0694FC8A1B4E73D000CEBC7C /* 管理 */,
+				0694FC891B4E73BE00CEBC7C /* 设置 */,
+				0694FC751B4E4E2F00CEBC7C /* 底部图标 */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		0694FC751B4E4E2F00CEBC7C /* 底部图标 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC761B4E4E4C00CEBC7C /* ico_APP@2x.png */,
+				0694FC771B4E4E4C00CEBC7C /* ico_home@2x.png */,
+				0694FC781B4E4E4C00CEBC7C /* ico_menage@2x.png */,
+				0694FC791B4E4E4C00CEBC7C /* ico_set@2x.png */,
+				0694FC7E1B4E52FC00CEBC7C /* ico_APP@3x.png */,
+				0694FC7F1B4E52FC00CEBC7C /* ico_home@3x.png */,
+				0694FC801B4E52FC00CEBC7C /* ico_menage@3x.png */,
+				0694FC811B4E52FC00CEBC7C /* ico_set@3x.png */,
+			);
+			name = "底部图标";
+			sourceTree = "<group>";
+		};
+		0694FC891B4E73BE00CEBC7C /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FC8E1B4E741A00CEBC7C /* about@2x.png */,
+				0694FC8F1B4E741A00CEBC7C /* bluebg@2x.png */,
+				0694FC911B4E741A00CEBC7C /* head@2x.png */,
+				0694FC921B4E741A00CEBC7C /* logout@2x.png */,
+				0694FC931B4E741A00CEBC7C /* phone@2x.png */,
+				0694FC951B4E741A00CEBC7C /* test@2x.png */,
+				0694FC961B4E741A00CEBC7C /* update@2x.png */,
+				0694FCA01B4E74C600CEBC7C /* about@3x.png */,
+				0694FCA11B4E74C600CEBC7C /* bluebg@3x.png */,
+				0694FCA21B4E74C600CEBC7C /* head@3x.png */,
+				0694FCA31B4E74C600CEBC7C /* logout@3x.png */,
+				0694FCA41B4E74C600CEBC7C /* phone@3x.png */,
+				0694FCA51B4E74C600CEBC7C /* test@3x.png */,
+				0694FCA61B4E74C600CEBC7C /* update@3x.png */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		0694FC8A1B4E73D000CEBC7C /* 管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "管理";
+			sourceTree = "<group>";
+		};
+		0694FC8B1B4E73E100CEBC7C /* 所有应用 */ = {
+			isa = PBXGroup;
+			children = (
+				06DCFCE81B58E7DB00A6074B /* sanj@2x.png */,
+				06DCFCEA1B58E7E900A6074B /* sanj@3x.png */,
+			);
+			name = "所有应用";
+			sourceTree = "<group>";
+		};
+		0694FC8C1B4E73EC00CEBC7C /* 安全桌面 */ = {
+			isa = PBXGroup;
+			children = (
+				06DCFCDB1B554A3100A6074B /* bg@2x.png */,
+				06DCFCDD1B554A3D00A6074B /* bg@3x.png */,
+			);
+			name = "安全桌面";
+			sourceTree = "<group>";
+		};
+		0694FC8D1B4E73F300CEBC7C /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				0694FCB41B4E981100CEBC7C /* btn_signup@2x.png */,
+				0694FCB51B4E981100CEBC7C /* ico_password@2x.png */,
+				0694FCB61B4E981100CEBC7C /* ico_user@2x.png */,
+				0694FCBA1B4E982700CEBC7C /* btn_signup@3x.png */,
+				0694FCBB1B4E982700CEBC7C /* ico_password@3x.png */,
+				0694FCBC1B4E982700CEBC7C /* ico_user@3x.png */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
+		0696302E1B538DEF0030A9F8 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				0696302F1B53940E0030A9F8 /* WebRequestManager.h */,
+				069630301B53940E0030A9F8 /* WebRequestManager.m */,
+				069630321B53B7D00030A9F8 /* ParamAdapter.h */,
+				069630331B53B7D00030A9F8 /* ParamAdapter.m */,
+				06DCFCEC1B5917BC00A6074B /* DataParser.h */,
+				06DCFCED1B5917BC00A6074B /* DataParser.m */,
+			);
+			name = web;
+			sourceTree = "<group>";
+		};
+		CD7DACC2FC045BE1C7727FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6894F104D216300EA9038B3 /* Pods.debug.xcconfig */,
+				6FDBBC9C7BC4464F5A7A060B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8CA5B8C31B472630267A1AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61B799957435FBF5EFFDE92A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +471,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0694FC451B4C03CD00CEBC7C /* Build configuration list for PBXNativeTarget "EnterpriseAppstore" */;
 			buildPhases = (
+				B9FB81C862FFAE2E4C6447B7 /* Check Pods Manifest.lock */,
 				0694FC1E1B4C03CD00CEBC7C /* Sources */,
 				0694FC1F1B4C03CD00CEBC7C /* Frameworks */,
 				0694FC201B4C03CD00CEBC7C /* Resources */,
+				4AAF0B6B49FF63324AEA2BFF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +546,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0694FC311B4C03CD00CEBC7C /* Main.storyboard in Resources */,
+				0694FC9A1B4E741A00CEBC7C /* head@2x.png in Resources */,
+				0694FC851B4E52FC00CEBC7C /* ico_set@3x.png in Resources */,
+				0694FC831B4E52FC00CEBC7C /* ico_home@3x.png in Resources */,
+				0694FC9C1B4E741A00CEBC7C /* phone@2x.png in Resources */,
+				06DCFCE91B58E7DB00A6074B /* sanj@2x.png in Resources */,
 				0694FC361B4C03CD00CEBC7C /* LaunchScreen.xib in Resources */,
+				0694FC981B4E741A00CEBC7C /* bluebg@2x.png in Resources */,
+				0694FCAD1B4E74C600CEBC7C /* update@3x.png in Resources */,
+				0694FCB81B4E981100CEBC7C /* ico_password@2x.png in Resources */,
+				06DCFCEB1B58E7E900A6074B /* sanj@3x.png in Resources */,
+				0694FC9E1B4E741A00CEBC7C /* test@2x.png in Resources */,
+				0694FC9B1B4E741A00CEBC7C /* logout@2x.png in Resources */,
+				0694FCA81B4E74C600CEBC7C /* bluebg@3x.png in Resources */,
+				0694FC841B4E52FC00CEBC7C /* ico_menage@3x.png in Resources */,
 				0694FC331B4C03CD00CEBC7C /* Images.xcassets in Resources */,
+				0694FCBE1B4E982700CEBC7C /* ico_password@3x.png in Resources */,
+				0694FC9F1B4E741A00CEBC7C /* update@2x.png in Resources */,
+				0694FCAB1B4E74C600CEBC7C /* phone@3x.png in Resources */,
+				06DCFCDE1B554A3D00A6074B /* bg@3x.png in Resources */,
+				0694FCB91B4E981100CEBC7C /* ico_user@2x.png in Resources */,
+				0694FC7A1B4E4E4C00CEBC7C /* ico_APP@2x.png in Resources */,
+				0694FCBF1B4E982700CEBC7C /* ico_user@3x.png in Resources */,
+				0694FCAC1B4E74C600CEBC7C /* test@3x.png in Resources */,
+				0694FC7B1B4E4E4C00CEBC7C /* ico_home@2x.png in Resources */,
+				0694FC821B4E52FC00CEBC7C /* ico_APP@3x.png in Resources */,
+				0694FCBD1B4E982700CEBC7C /* btn_signup@3x.png in Resources */,
+				0694FCA91B4E74C600CEBC7C /* head@3x.png in Resources */,
+				0694FC971B4E741A00CEBC7C /* about@2x.png in Resources */,
+				0694FCA71B4E74C600CEBC7C /* about@3x.png in Resources */,
+				06DCFCDC1B554A3100A6074B /* bg@2x.png in Resources */,
+				0694FC7C1B4E4E4C00CEBC7C /* ico_menage@2x.png in Resources */,
+				0694FC7D1B4E4E4C00CEBC7C /* ico_set@2x.png in Resources */,
+				0694FCB71B4E981100CEBC7C /* btn_signup@2x.png in Resources */,
+				0694FCAA1B4E74C600CEBC7C /* logout@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +592,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AAF0B6B49FF63324AEA2BFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FB81C862FFAE2E4C6447B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0694FC1E1B4C03CD00CEBC7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069630311B53940E0030A9F8 /* WebRequestManager.m in Sources */,
+				0694FC671B4D5A9B00CEBC7C /* AllAppsViewController.m in Sources */,
+				06DCFCE71B58B4BB00A6074B /* AppCategoryEntity.m in Sources */,
+				0694FC731B4E42C100CEBC7C /* BaseNavigationController.m in Sources */,
+				0694FC641B4D59AA00CEBC7C /* SecureDesktopViewController.m in Sources */,
+				06DCFCE11B56427300A6074B /* SecureDesktopItemView.m in Sources */,
 				0694FC2E1B4C03CD00CEBC7C /* ViewController.m in Sources */,
+				069630341B53B7D00030A9F8 /* ParamAdapter.m in Sources */,
+				06DCFCE41B58B27A00A6074B /* BaseEntity.m in Sources */,
+				0694FCB31B4E975400CEBC7C /* LoginViewController.m in Sources */,
+				06DCFCEE1B5917BC00A6074B /* DataParser.m in Sources */,
+				0694FC881B4E607C00CEBC7C /* BaseTabBarController.m in Sources */,
+				0694FC701B4E293500CEBC7C /* ManageViewController.m in Sources */,
+				0694FCC21B4E9A0F00CEBC7C /* LoginCustomTextField.m in Sources */,
+				0694FC571B4C05E900CEBC7C /* NSString+Extension.m in Sources */,
+				0694FC561B4C05E900CEBC7C /* NSDictionary+JsonString.m in Sources */,
+				0694FC611B4D55BF00CEBC7C /* SettingViewController.m in Sources */,
+				0694FCB01B4E83D900CEBC7C /* BaseViewController.m in Sources */,
+				0694FC511B4C056F00CEBC7C /* UIColor+HexColor.m in Sources */,
 				0694FC2B1B4C03CD00CEBC7C /* AppDelegate.m in Sources */,
 				0694FC281B4C03CD00CEBC7C /* main.m in Sources */,
 			);
@@ -244,14 +673,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0694FC2F1B4C03CD00CEBC7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0694FC301B4C03CD00CEBC7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0694FC341B4C03CD00CEBC7C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,9 +766,14 @@
 		};
 		0694FC461B4C03CD00CEBC7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6894F104D216300EA9038B3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EnterpriseAppstore/EnterpriseAppstore.pch;
 				INFOPLIST_FILE = EnterpriseAppstore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +781,14 @@
 		};
 		0694FC471B4C03CD00CEBC7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDBBC9C7BC4464F5A7A060B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EnterpriseAppstore/EnterpriseAppstore.pch;
 				INFOPLIST_FILE = EnterpriseAppstore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +847,7 @@
 				0694FC471B4C03CD00CEBC7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0694FC481B4C03CD00CEBC7C /* Build configuration list for PBXNativeTarget "EnterpriseAppstoreTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +856,7 @@
 				0694FC4A1B4C03CD00CEBC7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

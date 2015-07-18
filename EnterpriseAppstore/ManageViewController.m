@@ -8,15 +8,31 @@
 
 #import "ManageViewController.h"
 
-@interface ManageViewController ()
+static const CGFloat ManageSegmentedControlTopSpace = 40.0;
+static const CGFloat ManageSegmentedControlLeftSpace = 30.0;
+static const CGFloat ManageSegmentedControlHeight = 30.0;
 
+@interface ManageViewController ()
+@property (nonatomic, strong) UISegmentedControl *segmentedControl;
+@property (nonatomic, strong) UIScrollView *mainSV;
 @end
 
 @implementation ManageViewController
 
+#pragma mark - Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.view addSubview:self.segmentedControl];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +40,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Getters and Setters
+- (UISegmentedControl *)segmentedControl {
+    if (!_segmentedControl) {
+        _segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"可更新", @"卸载"]];
+        _segmentedControl.frame = CGRectMake(ManageSegmentedControlLeftSpace, ManageSegmentedControlTopSpace, ScreenWidth - 2 * ManageSegmentedControlLeftSpace, ManageSegmentedControlHeight);
+        _segmentedControl.tintColor = [UIColor whiteColor];
+        _segmentedControl.selectedSegmentIndex = 0;
+    }
+    return _segmentedControl;
 }
-*/
+
 
 @end

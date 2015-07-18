@@ -12,4 +12,31 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+
+
+//UI
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//字体
+#define FontMaxSize 16.0
+#define FontMidSize 14.0
+#define FontMinSize 12.0
+
+//系统版本
+#define CurrentSystemVersion [[[[UIDevice currentDevice] systemVersion] substringToIndex:1] intValue]
+
+//key
+#define kUserID @"kUserID"
+#define kToken @"kToken"
+
+//公有类
+#import "UIColor+HexColor.h"
+
+//Web
+#define BaseServerUrl @"http://192.168.1.22:8080/emm3"
+#define UDID @""
+#define APINameLogin @"/mobile/login/mobileLogin"
+#define APINameAppCateList @"/mobile/appstore/app/appcatelist"
+
 #endif

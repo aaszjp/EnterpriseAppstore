@@ -8,15 +8,27 @@
 
 #import "AllAppsViewController.h"
 
-@interface AllAppsViewController ()
+@interface AllAppsViewController () <WebRequestManagerDelegate>
+@property (nonatomic, strong) WebRequestManager *manager;
 
 @end
 
 @implementation AllAppsViewController
 
+#pragma mark - Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.manager getAppCateList];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +36,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Delegates
+#pragma mark - WebRequestManagerDelegate
+- (void)webRequestManager:(WebRequestManager *)manager didFinishedWebRequestWithResponseObj:(id)response andType:(WebRequestType)type {
+    
 }
-*/
+
+- (void)webRequestManager:(WebRequestManager *)manager didFailedWebRequestWithMessage:(NSString *)message andType:(WebRequestType)type {
+    
+}
+
+#pragma mark - Getters and Setters
+- (WebRequestManager *)manager {
+    if (!_manager) {
+        _manager = [[WebRequestManager alloc] init];
+        _manager.delegate = self;
+    }
+    return _manager;
+}
 
 @end

@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XmlNode.h"
-#import "XmlResolve.h"
 
 @interface BaseEntity : NSObject
 
-- (instancetype)initWithNode:(XmlNode*) node;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

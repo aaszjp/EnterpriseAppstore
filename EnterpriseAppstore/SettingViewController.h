@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 AAS. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface SettingViewController : UIViewController
+@interface SettingViewController : BaseViewController
 
 @end

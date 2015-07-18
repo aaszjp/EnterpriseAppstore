@@ -10,4 +10,7 @@
 
 @interface AppCategoryEntity : BaseEntity
 
+@property (nonatomic, copy) NSString *cateid;   //分类编号
+@property (nonatomic, copy) NSString *name;     //分类名称
+
 @end

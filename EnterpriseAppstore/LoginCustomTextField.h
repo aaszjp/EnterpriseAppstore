@@ -10,4 +10,9 @@
 
 @interface LoginCustomTextField : UIView
 
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic, assign) BOOL secureTextEntry;
+
+- (instancetype)initWithFrame:(CGRect)frame imageName:(NSString *)imageName placeHolder:(NSString *)placeHolder;
+
 @end
