@@ -43,7 +43,11 @@
 }
 
 - (void)webRequestManager:(WebRequestManager *)manager didFailedWebRequestWithMessage:(NSString *)message andType:(WebRequestType)type {
-    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (type == WebRequestTypeAppCateList) {
+            [self showHudMessage:message];
+        }
+    });
 }
 
 #pragma mark - Getters and Setters
