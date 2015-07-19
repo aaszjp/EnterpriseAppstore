@@ -64,6 +64,7 @@
 		06DCFCEB1B58E7E900A6074B /* sanj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06DCFCEA1B58E7E900A6074B /* sanj@3x.png */; };
 		06DCFCEE1B5917BC00A6074B /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DCFCED1B5917BC00A6074B /* DataParser.m */; };
 		1F08280CE8C85FBEAE412789 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B799957435FBF5EFFDE92A /* libPods.a */; };
+		4802F54A1B5BE6AA00C3964E /* AllAppsCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4802F5491B5BE6AA00C3964E /* AllAppsCategoryTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,8 @@
 		06DCFCEA1B58E7E900A6074B /* sanj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanj@3x.png"; sourceTree = "<group>"; };
 		06DCFCEC1B5917BC00A6074B /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
 		06DCFCED1B5917BC00A6074B /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		4802F5481B5BE6AA00C3964E /* AllAppsCategoryTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAppsCategoryTitleView.h; sourceTree = "<group>"; };
+		4802F5491B5BE6AA00C3964E /* AllAppsCategoryTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAppsCategoryTitleView.m; sourceTree = "<group>"; };
 		61B799957435FBF5EFFDE92A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDBBC9C7BC4464F5A7A060B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A6894F104D216300EA9038B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -273,6 +276,8 @@
 				0694FCC11B4E9A0F00CEBC7C /* LoginCustomTextField.m */,
 				06DCFCDF1B56427300A6074B /* SecureDesktopItemView.h */,
 				06DCFCE01B56427300A6074B /* SecureDesktopItemView.m */,
+				4802F5481B5BE6AA00C3964E /* AllAppsCategoryTitleView.h */,
+				4802F5491B5BE6AA00C3964E /* AllAppsCategoryTitleView.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -631,6 +636,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				069630311B53940E0030A9F8 /* WebRequestManager.m in Sources */,
+				4802F54A1B5BE6AA00C3964E /* AllAppsCategoryTitleView.m in Sources */,
 				0694FC671B4D5A9B00CEBC7C /* AllAppsViewController.m in Sources */,
 				06DCFCE71B58B4BB00A6074B /* AppCategoryEntity.m in Sources */,
 				0694FC731B4E42C100CEBC7C /* BaseNavigationController.m in Sources */,

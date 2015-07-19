@@ -22,7 +22,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[NSUserDefaults standardUserDefaults] objectForKey:kToken] ? [[BaseTabBarController alloc] init] : [[LoginViewController alloc] init];
+//    self.window.rootViewController = [[NSUserDefaults standardUserDefaults] objectForKey:kToken] ? [[BaseTabBarController alloc] init] : [[LoginViewController alloc] init];
+    self.window.rootViewController = [[BaseTabBarController alloc] init];
     [self.window makeKeyAndVisible];
     
     return YES;
